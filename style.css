@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+        font-size: clamp(0.7rem, 0.5rem, + 0.5vw, 4rem);
+        --principal-color: #03045e;
+        --secondary-color: #0088ff;
+        --bg-color: #f7f8fd;
+        font-family: "Poppins", sans-serif;
+}
+a{
+    color: var(--principal-color);
+}
+
+/*header*/
+header{
+    background: var(--bg-color);
+    padding: 2vw 15rem 2vw 15rem;
+    
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+header a.btn{
+    background: var(--principal-color);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+/* banner */
+
+section.banner{
+    background: var(--bg-color);
+    padding: 2vw 15rem 2vw 15rem;
+    display: flex;
+    align-items: center;
+    
+}
+section.banner h2{
+    color: var(--principal-color);
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 4rem 0 1rem 0;
+    font-family: "Ubuntu", sans-serif;
+
+}
+section.banner .pp{
+    padding: 0 0 1rem 0;
+    color: #03035e;
+    opacity: 50%;
+    
+}
+section.banner p button{
+    background: var(--secondary-color);
+    color: white;
+    border-radius: 5px;
+    padding: 6px 20px;
+}
+/*Services*/
+section.service{
+    text-align: center;
+    padding: 2vw 15rem 2vw 15rem;
+}
+section.service ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    gap: 40px;
+
+}
+section.service ul li{
+    width: 30%;
+}
+
+section.service h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Ubuntu", sans-serif;
+    padding: 4rem 0 3rem 0;
+}
+section.service h3{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+section.service p{
+    padding: 1rem 0 2rem 0;
+    color: #03035e;
+    opacity: 70%;
+}
+section.service span{
+    font-size: 2rem;
+    color: var(--secondary-color);
+}

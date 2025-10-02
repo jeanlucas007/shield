@@ -82,11 +82,13 @@ section.service h2{
     font-weight: 600;
     font-family: "Ubuntu", sans-serif;
     padding: 4rem 0 3rem 0;
+        color: #03035e;
 }
 section.service h3{
     font-size: 1rem;
     font-weight: 600;
     padding: 0.5rem 0;
+        color: #03035e;
 }
 section.service p{
     padding: 1rem 0 2rem 0;
@@ -96,4 +98,58 @@ section.service p{
 section.service span{
     font-size: 2rem;
     color: var(--secondary-color);
+}
+/*Clients*/
+
+section.clients{
+    padding: 2vw 15rem 2vw 15rem;
+    text-align: center;
+
+}
+section.clients h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Ubuntu", sans-serif;
+    padding: 6rem 0 3rem 0;
+    color: #03035e;
+}
+section.clients ul{
+    display: flex;
+    gap: 40px;
+}
+section.clients h3{
+    font-size: 1.3 rem;
+    font-weight: 600;
+    font-family: "Ubuntu", sans-serif;
+    padding: 1rem 0 0 0;
+    color: #03035e;
+}
+
+section.clients p{
+    padding: 0.2rem 0 2rem 0;
+    color: #03035e;
+    opacity: 70%;
+}
+
+section.numeros{
+    background: var(--secondary-color);
+    justify-content: center;
+}
+section.numeros ul{
+    display: flex;
+    gap: 40px;
+    padding: 2vw 0 2vw 0;
+
+    
+}
+section.numeros h2{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Ubuntu", sans-serif;
+
+}
+section.numeros p{
+    color: white;
+    font-size: 0.9rem
 }
